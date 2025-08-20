@@ -77,15 +77,9 @@ author:
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/JohannesHog"
 
 defaults:
   # _posts
@@ -99,6 +93,7 @@ defaults:
       comments: true
       share: true
       related: true
+      math: true
   # _pages
   - scope:
       path: "_pages"
@@ -106,6 +101,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      math: true
 
 category_archive:
   type: liquid
