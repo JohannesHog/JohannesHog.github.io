@@ -16,4 +16,4 @@ $$
 
 Some inline math $x=\eta 3 \leq 3$
 
-![Figure 1.](../assets/images/Kaplan(2020)-Figure1.png)
+![Figure 1.]({{ site.url }}{{ site.baseurl }}/assets/images/Kaplan(2020)-Figure1.png)
